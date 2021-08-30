@@ -1,0 +1,130 @@
+body {
+  font-size: 16px;
+  font-family: "Poppins";
+  background-image: url("images/pinkBackground.png");
+  background-size: cover;
+}
+
+h1,
+p {
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 150px;
+}
+
+.leftSide {
+  width: 45%;
+  margin: 0 25px;
+}
+
+.rightSide {
+  width: 40%;
+  margin: 0 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.purpleBox {
+  background-color: hsl(248, 32%, 49%);
+  text-align: center;
+  margin-bottom: 19px;
+  border-radius: 10px;
+  padding: 12px 0;
+  box-shadow: 0px 7px 2px rgb(62, 60, 73, 0.3);
+}
+
+.boldText {
+  font-weight: 700;
+  display: inline;
+}
+
+.lightText {
+  font-weight: 400;
+  display: inline;
+}
+
+.form {
+  background-color: white;
+  padding: 35px 35px;
+  border-radius: 10px;
+  box-shadow: 0px 7px 2px rgb(62, 60, 73, 0.3);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Add this in using javascript! */
+/* input {
+  background: url("images/icon-error.svg") no-repeat 95% 10px;
+} */
+
+#fname,
+#lname,
+#email,
+#password {
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-family: "Poppins";
+  font-weight: 500;
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+small {
+  text-align: right;
+  font-size: 10px;
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+  font-style: italic;
+  padding: 0;
+}
+
+button {
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  color: white;
+  text-align: center;
+  font-family: "Poppins";
+  padding: 15px 0;
+  border-radius: 5px;
+  box-shadow: 0px 5px rgba(62, 155, 114, 0.8);
+}
+
+button:hover {
+  cursor: pointer;
+}
+#terms {
+  color: hsl(246, 25%, 77%);
+  font-size: 8px;
+}
+
+#boldTerms {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+  font-size: 8px;
+}
+
+.termSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
